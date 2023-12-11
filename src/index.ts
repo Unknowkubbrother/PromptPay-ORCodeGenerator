@@ -10,7 +10,7 @@ import mongoose from 'mongoose';
 
 import router from './router';
 
-const app = express();
+const app : express.Express = express();
 
 app.use(cors({
     origin: true,
